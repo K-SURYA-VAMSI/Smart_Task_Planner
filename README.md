@@ -273,19 +273,6 @@ REACT_APP_API_URL=http://localhost:5000/api
 2. Build the project: `npm run build`
 3. Deploy the build folder
 
-### Docker Deployment
-
-```dockerfile
-# Example Dockerfile for backend
-FROM node:16-alpine
-WORKDIR /app
-COPY package*.json ./
-RUN npm install
-COPY . .
-EXPOSE 5000
-CMD ["npm", "start"]
-```
-
 ## 🔍 Troubleshooting
 
 ### Common Issues
@@ -319,28 +306,12 @@ DEBUG=* npm run dev
 # View browser console for frontend issues
 ```
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Commit changes: `git commit -am 'Add feature'`
-4. Push to branch: `git push origin feature-name`
-5. Submit a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - [Google Gemini AI](https://ai.google.dev/) for intelligent task generation
 - [MongoDB](https://www.mongodb.com/) for database solutions
 - [React](https://reactjs.org/) for the frontend framework
 - [Express.js](https://expressjs.com/) for the backend framework
-
-## 📧 Support
-
-For support, email [your-email] or create an issue in the repository.
 
 ---
 
